@@ -12,7 +12,7 @@ This project demonstrates how to perform camera calibration using OpenCV, a popu
 - **Reprojection Error Calculation**: After calibration, the project calculates the reprojection error to assess the accuracy of the calibration. Reprojection error measures the discrepancy between the detected image points and the corresponding reprojected points.
 
 ## Usage:
-1. **Image Acquisition**: Capture multiple images of a chessboard pattern from different viewpoints. Ensure the chessboard covers various parts of the image with varying orientations.
+1. **Image Acquisition**: Capture multiple images of a chessboard pattern from different viewpoints using *capture_callibration_images.py*. Ensure the chessboard covers various parts of the image with varying orientations.
 
 2. **Run Calibration Script**: Execute the provided Python script to perform camera calibration. The script reads the images, detects chessboard corners, refines them, and calculates calibration parameters.
 
